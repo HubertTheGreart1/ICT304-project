@@ -1,4 +1,4 @@
-# 📈 TradeX Intelligent Forecasting System
+# TradeX Intelligent Forecasting System
 
 ![Python](https://img.shields.io/badge/Python-3.7--3.11-blue?logo=python)
 ![Platform](https://img.shields.io/badge/Platform-Windows%2010%2B-lightgrey)
@@ -9,7 +9,7 @@ The **TradeX Intelligent Forecasting System** is a smart, automated stock price 
 
 ---
 
-## 📂 Files Included
+## Files Included
 
 | File                             | Description                                      |
 |----------------------------------|--------------------------------------------------|
@@ -22,7 +22,7 @@ The **TradeX Intelligent Forecasting System** is a smart, automated stock price 
 
 ---
 
-## ✅ Prerequisites
+## Prerequisites
 
 To run the system via `run_stock_predictor.bat`, ensure the following:
 
@@ -33,7 +33,7 @@ To run the system via `run_stock_predictor.bat`, ensure the following:
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 1. **Download** and unzip `ict304_assign1_final.zip` to any directory.
 2. **Double-click** `run_stock_predictor.bat`.
@@ -43,16 +43,15 @@ To run the system via `run_stock_predictor.bat`, ensure the following:
 - Enter a stock symbol (e.g., `AAPL`)
 - Enter a prediction date (format: `YYYY-MM-DD`)
 
-> 🕒 Note: This process might take several minutes on first run because:
+> Note: This process might take several minutes on first run because:
 > - It creates and activates a Python virtual environment
 > - Automatically installs all required packages
 > - Executes the prediction script
 
 ---
 
-### 📌 Example Prompt
+### Example Prompt
 
 ```bash
 Enter Stock Symbol (e.g., AAPL): AAPL
 Enter Prediction Date (YYYY-MM-DD): 2024-01-15
-
