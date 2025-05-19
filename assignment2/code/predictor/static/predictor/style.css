@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .navbar {
+    background-color: #f4f4f4;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    margin-right: 15px;
+    color: #333;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  form {
+    max-width: 400px;
+  }
+  

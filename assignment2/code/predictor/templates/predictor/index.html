@@ -1,0 +1,22 @@
+{% extends 'predictor/base.html' %}
+
+{% block content %}
+  <h1>Stock Price Predictor</h1>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Predict</button>
+  </form>
+
+  {% if prices %}
+    <h2>Predicted Prices</h2>
+    <ul>
+      {% for price in prices %}
+        <li>{{ price }}</li>
+      {% endfor %}
+    </ul>
+
+    <h3>AI Summary</h3>
+    <p>{{ summary }}</p>
+  {% endif %}
+{% endblock %}
